@@ -101,7 +101,7 @@ const ReviewComp: React.FC = () => {
           </div>
         </div>
       ) : (
-        <div className="flex h-full justify-end">
+        <div className="flex h-full justify-end px-2 sm:px-5">
           <Button
             variant={"ghost"}
             className="cursor-pointer flex items-center gap-2 border baseBorder rounded"
