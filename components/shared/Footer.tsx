@@ -11,7 +11,7 @@ export default function Footer() {
             href={"/"}
             className="underline underline-offset-2 font-semibold  dark:text-gray-300"
           >
-            codewithkara
+            supxdevs
           </Link>
         </span>
         <br />
