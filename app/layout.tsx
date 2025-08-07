@@ -18,10 +18,10 @@ const firaCode = Fira_Code({
 
 export const metadata: Metadata = {
   title: {
-    template: "%s - Gaurav Singh",
-    default: "Gaurav Singh - Software Engineer",
+    template: "%s - CodewithKara",
+    default: "CodewithKara - Software Engineer",
   },
-  description: "Codewithkara Portfolio",
+  description: "CodewithKara Portfolio",
 };
 
 export default function RootLayout({
