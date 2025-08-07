@@ -8,7 +8,6 @@ import Image from "next/image";
 import { signIn, signOut, useSession } from "next-auth/react";
 import axios from "axios";
 import { postComment } from "./actions";
-import ReviewSkeleton from "./ReviewSkeleton";
 import { motion } from "framer-motion";
 
 interface Review {
@@ -67,7 +66,6 @@ const ReviewComp: React.FC = () => {
         Loading . . .
       </div>
     );
-    // return <ReviewSkeleton />;
   }
 
   return (

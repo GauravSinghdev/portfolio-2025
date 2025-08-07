@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import React, { useState } from "react";
-import Searchbox from "./Searchbox";
 import { RiGithubFill } from "react-icons/ri";
 import { ModeToggle } from "./ModeToggle";
 import { Menu, X } from "lucide-react";
