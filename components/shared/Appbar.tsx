@@ -18,7 +18,7 @@ export default function Appbar() {
       <div className="mt-2 border-t baseBorder" />
       <div className="max-w-3xl mx-auto baseBorder border-x flex items-center justify-between py-1 px-3 text-gray-700 dark:text-gray-200">
         <Link href={"/"} className="font-bold font-[cursive] tracking-widest">
-          Supxdevs
+          CodeWithKara
         </Link>
         <div className="flex items-center gap-5">
           <div className="hidden sm:flex gap-4">
@@ -29,7 +29,7 @@ export default function Appbar() {
           <div className="flex gap-2 items-center">
             {/* <Searchbox /> */}
             <Link
-              href={"https://github.com/GauravSinghdev"}
+              href={"https://github.com/GauravSinghdev/portfolio-2025"}
               target="_blank"
               className="border baseBorder hover:bg-accent rounded-[50%] text-center"
             >

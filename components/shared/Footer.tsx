@@ -11,14 +11,14 @@ export default function Footer() {
             href={"/"}
             className="underline underline-offset-2 font-semibold  dark:text-gray-300"
           >
-            supxdevs
+            codewithkara
           </Link>
         </span>
         <br />
         The source code is available on
         <span className="ml-1">
           <Link
-            href={"https://github.com/GauravSinghdev"}
+            href={"https://github.com/GauravSinghdev/portfolio-2025"}
             className="underline underline-offset-2 font-semibold  dark:text-gray-300"
           >
             GitHub
