@@ -10,7 +10,7 @@ export default function HomePage() {
     <div className="min-h-screen flex flex-col">
       <div className="mt-13 max-w-3xl mx-auto border-x baseBorder w-full">
         <div className="hidden sm:h-[200px] bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] dark:bg-[radial-gradient(#2a2a2a_1px,transparent_1px)] bg-[size:25px_25px] sm:flex items-center justify-center">
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-4 cursor-default">
             <span className="text-6xl font-extrabold text-black dark:text-white drop-shadow-[0_0_8px_rgba(0,0,0,0.5)] dark:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] transition-all duration-300 hover:drop-shadow-[0_0_12px_rgba(0,0,0,0.7)] dark:hover:drop-shadow-[0_0_12px_rgba(255,255,255,1)] hover:scale-110">
               G
             </span>
@@ -66,7 +66,7 @@ export default function HomePage() {
         </h1>
       </div>
 
-      <div className="max-w-3xl mx-auto border-x baseBorder w-full p-5 space-y-5 text-gray-600 dark:text-gray-300 ">
+      <div className="max-w-3xl mx-auto border-x baseBorder w-full space-y-5 text-gray-600 dark:text-gray-300 ">
         <ExperienceComp />
       </div>
     </div>

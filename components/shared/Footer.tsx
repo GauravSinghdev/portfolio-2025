@@ -9,6 +9,7 @@ export default function Footer() {
         <span>
           <Link
             href={"/"}
+            target="_blank"
             className="underline underline-offset-2 font-semibold  dark:text-gray-300"
           >
             codewithkara
@@ -19,10 +20,12 @@ export default function Footer() {
         <span className="ml-1">
           <Link
             href={"https://github.com/GauravSinghdev/portfolio-2025"}
+            target="_blank"
             className="underline underline-offset-2 font-semibold  dark:text-gray-300"
           >
             GitHub
           </Link>
+          .
         </span>
       </p>
     </footer>
