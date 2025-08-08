@@ -44,7 +44,7 @@ export default function ExperienceComp() {
         <div className="flex flex-col gap-2">
           <div className="flex items-center justify-between">
             <div className="flex gap-2 items-center mt-2">
-              <FaCode className="ml-15 size-5" />
+              <FaCode className="ml-5 md:ml-15 size-5" />
               <h4 className="font-semibold italic">Software Engineer</h4>
             </div>
             <CollapsibleTrigger asChild>
@@ -54,7 +54,7 @@ export default function ExperienceComp() {
               </Button>
             </CollapsibleTrigger>
           </div>
-          <div className="flex text-sm ml-22 font-light text-gray-500 dark:text-gray-400">
+          <div className="flex text-sm ml-9 md:ml-15 font-light text-gray-500 dark:text-gray-400">
             <h2>Full-time</h2>
             <TbMinusVertical className="size-5" />
             <h2>07.2021-01.2024</h2>
@@ -91,7 +91,7 @@ export default function ExperienceComp() {
         </Collapsible>
       </div>
 
-      <div className="p-5 group">
+      <div className="p-5 sm:p-3 group">
         <div className="flex gap-2 items-center">
           <SiFreelancermap className="size-5 p-1 mx-4 border baseBorder dark:bg-gray-300 dark:text-black" />
           <h1 className="text-lg my-1 group-hover:underline group-hover:underline-offset-2">Freelancing Work</h1>
@@ -105,7 +105,7 @@ export default function ExperienceComp() {
           <div className="flex flex-col gap-2">
             <div className="flex items-center justify-between">
               <div className="flex gap-2 items-center mt-2">
-                <FaCode className="ml-15 size-5" />
+                <FaCode className="ml-5 md:ml-15 size-5" />
                 <h4 className="font-semibold italic">FrontEnd Developer</h4>
               </div>
               <CollapsibleTrigger asChild>
@@ -115,7 +115,7 @@ export default function ExperienceComp() {
                 </Button>
               </CollapsibleTrigger>
             </div>
-            <div className="flex text-sm ml-22 font-light text-gray-500 dark:text-gray-400">
+            <div className="flex text-sm ml-9 md:ml-15 font-light text-gray-500 dark:text-gray-400">
               <h2>Part-time</h2>
               <TbMinusVertical className="size-5" />
               <h2 className="flex gap-2">
