@@ -26,12 +26,12 @@ export default function BioComp() {
         gauravkalakoti19@gmail.com
       </Link>
       <Link
-        href={"https://supxdevs.com/"}
+        href={"https://codewithkara.com/"}
         target="_blank"
         className="flex items-center gap-2 baseBorder p-1 rounded  hover:underline hover:underline-offset-2"
       >
         <Globe className="size-6 text-gray-600" />
-        supxdevs.com
+        codewithkara.com
       </Link>
     </div>
   );
