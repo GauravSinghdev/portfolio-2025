@@ -91,7 +91,7 @@ export default function ExperienceComp() {
         </Collapsible>
       </div>
 
-      <div className="p-2">
+      <div className="p-2 sm:p-3">
         <div className="flex gap-2 items-center">
           <SiFreelancermap className="size-5 p-1 mx-4 border baseBorder dark:bg-gray-300 dark:text-black" />
           <h1 className="text-lg my-1 underline underline-offset-2">Freelancing Work</h1>
