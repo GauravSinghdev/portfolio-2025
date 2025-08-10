@@ -69,6 +69,11 @@ export default function HomePage() {
       <div className="max-w-3xl mx-auto border-x baseBorder w-full space-y-5 text-gray-600 dark:text-gray-300 ">
         <ExperienceComp />
       </div>
+
+      <div className="border-t baseBorder">
+        <div className="max-w-3xl mx-auto border-x baseBorder h-10">
+        </div>
+      </div>
     </div>
   );
 }

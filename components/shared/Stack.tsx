@@ -7,6 +7,8 @@ import {
 } from "@/components/ui/tooltip";
 import Link from "next/link";
 import { SiMongodb, SiShadcnui } from "react-icons/si";
+import Image from "next/image"
+import reactqLogo from "@/public/tanstack-query.png"
 
 export const Stack = () => {
   return (
@@ -248,6 +250,21 @@ export const Stack = () => {
             </TooltipTrigger>
             <TooltipContent>
               <p>Shadcn</p>
+            </TooltipContent>
+          </Tooltip>
+        </Link>
+
+        <Link
+          href={"https://tanstack.com/query/latest"}
+          className="flex items-center"
+          target="_blank"
+        >
+          <Tooltip>
+            <TooltipTrigger asChild>
+              <Image width={200} height={200} src={reactqLogo} className="size-11 aspect-square" alt="ReactQuery Logo"/>
+            </TooltipTrigger>
+            <TooltipContent>
+              <p>Tanstack Query</p>
             </TooltipContent>
           </Tooltip>
         </Link>

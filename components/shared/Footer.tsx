@@ -4,7 +4,7 @@ import React from "react";
 export default function Footer() {
   return (
     <footer className="border-x border-t baseBorder">
-      <p className="max-w-3xl mx-auto border-x baseBorder p-5 text-center text-sm text-gray-600 dark:text-gray-300 ">
+      <p className="max-w-3xl mx-auto border-x baseBorder p-4 sm:p-6 text-center text-sm text-gray-600 dark:text-gray-300 ">
         Built by{" "}
         <span>
           <Link

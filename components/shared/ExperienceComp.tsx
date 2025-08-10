@@ -23,7 +23,7 @@ export default function ExperienceComp() {
   return (
     <div className="flex flex-col gap-5 divide-y divide-gray-200 dark:divide-white/10">
 
-      <div className="p-5 group">
+      <div className="p-2">
         <div className="flex gap-2 items-center">
           <Image
             width={50}
@@ -32,7 +32,7 @@ export default function ExperienceComp() {
             alt="metacubesoft"
             className="p-2 border baseBorder dark:bg-gray-300"
           />
-          <div className="text-lg my-1 group-hover:underline group-hover:underline-offset-2">Metacube Software</div>
+          <div className="text-lg my-1 underline underline-offset-2 decoration-gray-500 decora">Metacube Software</div>
         </div>
 
         <Collapsible
@@ -41,10 +41,10 @@ export default function ExperienceComp() {
         className="flex w-full flex-col gap-2"
           >
         {" "}
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-1">
           <div className="flex items-center justify-between">
             <div className="flex gap-2 items-center mt-2">
-              <FaCode className="ml-5 md:ml-15 size-5" />
+              <FaCode className="ml-2 md:ml-15 size-5" />
               <h4 className="font-semibold italic">Software Engineer</h4>
             </div>
             <CollapsibleTrigger asChild>
@@ -91,10 +91,10 @@ export default function ExperienceComp() {
         </Collapsible>
       </div>
 
-      <div className="p-5 sm:p-3 group">
+      <div className="p-2">
         <div className="flex gap-2 items-center">
           <SiFreelancermap className="size-5 p-1 mx-4 border baseBorder dark:bg-gray-300 dark:text-black" />
-          <h1 className="text-lg my-1 group-hover:underline group-hover:underline-offset-2">Freelancing Work</h1>
+          <h1 className="text-lg my-1 underline underline-offset-2">Freelancing Work</h1>
         </div>
 
         <Collapsible
@@ -102,10 +102,10 @@ export default function ExperienceComp() {
           onOpenChange={setIsOpen2}
           className="flex w-full flex-col gap-2"
         >
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-1">
             <div className="flex items-center justify-between">
               <div className="flex gap-2 items-center mt-2">
-                <FaCode className="ml-5 md:ml-15 size-5" />
+                <FaCode className="ml-3 md:ml-15 size-5" />
                 <h4 className="font-semibold italic">FrontEnd Developer</h4>
               </div>
               <CollapsibleTrigger asChild>
@@ -115,7 +115,7 @@ export default function ExperienceComp() {
                 </Button>
               </CollapsibleTrigger>
             </div>
-            <div className="flex text-sm ml-9 md:ml-15 font-light text-gray-500 dark:text-gray-400">
+            <div className="flex text-sm ml-10 md:ml-15 font-light text-gray-500 dark:text-gray-400">
               <h2>Part-time</h2>
               <TbMinusVertical className="size-5" />
               <h2 className="flex gap-2">
@@ -127,12 +127,12 @@ export default function ExperienceComp() {
           <CollapsibleContent className="flex flex-col gap-2 font-light text-[15px] md:ml-15 m-2 text-black/70 dark:text-white/60">
             <div className="flex gap-2 items-start md:items-center">
               <GoDot className="size-6" />
-              <div>Developed website for CA/CS management and here is the demo of the  <Link href={"tawanjo.codewithkara.com"}>site</Link></div>
+              <div>Developed website for CA/CS management and here is the demo of the  <Link href={"tawanjo.codewithkara.com"} target="_blank" className="underline underline-offset-2 decoration-gray-400 dark:decoration-white/40 hover:decoration-blue-500 hover:decoration-2 hover:dark:decoration-blue-500 dark:hover:decoration-2">site</Link> .</div>
             </div>
 
             <div className="flex gap-2 items-start">
               <GoDot className="size-6" />
-              <div>Developed website for holiday package providing company and here is the demo of the  <Link href={"tripwhirl.codewithkara.com"}>site</Link></div>
+              <div>Developed website for holiday package providing company and here is the demo of the  <Link href={"tripwhirl.codewithkara.com"} target="_blank" className="underline underline-offset-2 decoration-gray-400 dark:decoration-white/40 hover:decoration-blue-500 hover:decoration-2 hover:dark:decoration-blue-500 dark:hover:decoration-2">site</Link> .</div>
             </div>
           
           </CollapsibleContent>
