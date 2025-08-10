@@ -127,12 +127,12 @@ export default function ExperienceComp() {
           <CollapsibleContent className="flex flex-col gap-2 font-light text-[15px] md:ml-15 m-2 text-black/70 dark:text-white/60">
             <div className="flex gap-2 items-start md:items-center">
               <GoDot className="size-6" />
-              <div>Developed website for CA/CS management and here is the demo of the  <Link href={"tawanjo.codewithkara.com"} target="_blank" className="underline underline-offset-2 decoration-gray-400 dark:decoration-white/40 hover:decoration-blue-500 hover:decoration-2 hover:dark:decoration-blue-500 dark:hover:decoration-2">site</Link> .</div>
+              <div>Developed website for CA/CS management and here is the demo of the  <Link href={"https://tawanjo.codewithkara.com"} target="_blank" className="underline underline-offset-2 decoration-gray-400 dark:decoration-white/40 hover:decoration-blue-500 hover:decoration-2 hover:dark:decoration-blue-500 dark:hover:decoration-2">site</Link> .</div>
             </div>
 
             <div className="flex gap-2 items-start">
               <GoDot className="size-6" />
-              <div>Developed website for holiday package providing company and here is the demo of the  <Link href={"tripwhirl.codewithkara.com"} target="_blank" className="underline underline-offset-2 decoration-gray-400 dark:decoration-white/40 hover:decoration-blue-500 hover:decoration-2 hover:dark:decoration-blue-500 dark:hover:decoration-2">site</Link> .</div>
+              <div>Developed website for holiday package providing company and here is the demo of the  <Link href={"https://tripwhirl.codewithkara.com"} target="_blank" className="underline underline-offset-2 decoration-gray-400 dark:decoration-white/40 hover:decoration-blue-500 hover:decoration-2 hover:dark:decoration-blue-500 dark:hover:decoration-2">site</Link> .</div>
             </div>
           
           </CollapsibleContent>
