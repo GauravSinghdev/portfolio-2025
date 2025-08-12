@@ -14,7 +14,7 @@ export default function Appbar() {
   };
 
   return (
-    <div className="w-full lg:w-[99.3vw] mx-auto baseBorder border-b text-sm fixed shadow-xl z-50 bg-white dark:bg-black">
+    <div className="w-full mx-auto baseBorder border-b text-sm fixed shadow-xl z-50 bg-white dark:bg-black">
       <div className="mt-2 border-t baseBorder" />
       <div className="max-w-3xl mx-auto baseBorder border-x flex items-center justify-between py-1 px-3 text-gray-700 dark:text-gray-200">
         <Link href={"/"} className="font-bold font-[cursive] tracking-widest">

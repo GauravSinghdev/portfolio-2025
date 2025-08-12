@@ -69,7 +69,7 @@ const ReviewComp: React.FC = () => {
   }
 
   return (
-    <div className="max-w-3xl mx-auto border-x baseBorder pt-20 sm:pt-28">
+    <div className="max-w-3xl mx-auto min-h-screen border-x baseBorder pt-20 sm:pt-20">
       {session?.user ? (
         <div className="flex flex-col gap-4 px-2 sm:px-5">
           <Button
@@ -124,12 +124,12 @@ const ReviewComp: React.FC = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5 }}
-          className="pt-5 space-y-5"
+          className="pt-5 space-y-5 divide-y"
         >
           {reviews.map((review) => (
             <div
               key={review.id}
-              className="flex items-start gap-2 border-b baseBorder pb-2 px-2 sm:px-5"
+              className="flex items-start gap-2 baseBorder pb-2 px-2 sm:px-5"
             >
               <Image
                 src={review.user.avatarUrl}

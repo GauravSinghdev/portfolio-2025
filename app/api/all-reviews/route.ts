@@ -17,7 +17,7 @@ export async function GET() {
         },
       },
       orderBy: {
-        id: "desc", // Optional: orders comments by ID descending (newest first)
+        createdAt: "desc", // Optional: orders comments by ID descending (newest first)
       },
     });
 
