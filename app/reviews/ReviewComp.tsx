@@ -69,7 +69,7 @@ const ReviewComp: React.FC = () => {
   }
 
   return (
-    <div className="max-w-3xl mx-auto min-h-screen border-x baseBorder pt-20 sm:pt-20">
+    <div className="max-w-3xl mx-auto min-h-screen border-x baseBorder pt-20 sm:pt-20 w-full">
       {session?.user ? (
         <div className="flex flex-col gap-4 px-2 sm:px-5">
           <Button
