@@ -22,7 +22,14 @@ export default function Appbar() {
         </Link>
         <div className="flex items-center gap-5">
           <div className="hidden sm:flex gap-4">
-            <Link href={"/#projects"}>Projects</Link>
+            {/* <Link href={"/#projects"}>Projects</Link> */}
+
+            <Link
+              href={"https://bytelog.codewithkara.com/blogs"}
+              target="_blank"
+            >
+              Blogs
+            </Link>
             <Link href={"/reviews"}>Reviews</Link>
           </div>
 
@@ -55,12 +62,20 @@ export default function Appbar() {
       {isMenuOpen && (
         <div className="sm:hidden bg-white dark:bg-gray-800 border-t border-gray-200">
           <div className="flex flex-col items-start gap-4 p-4 text-gray-700 dark:text-gray-200 bg-transparent">
-            <Link
+            {/* <Link
               className=" w-full p-1"
               href={"/#projects"}
               onClick={toggleMenu}
             >
               Projects
+            </Link> */}
+            <Link
+              href={"https://bytelog.codewithkara.com/blogs"}
+              target="_blank"
+              className="w-full p-1"
+              onClick={toggleMenu}
+            >
+              Blogs
             </Link>
             <Link
               className=" w-full p-1"
