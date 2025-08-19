@@ -4,8 +4,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
       url: "https://codewithkara.com",
-      lastModified: "2025-08-08",
-      priority: 1.0
+      lastModified: "2025-08-15"
     },
   ];
 }
