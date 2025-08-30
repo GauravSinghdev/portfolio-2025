@@ -4,6 +4,8 @@ import { Stack } from "@/components/shared/Stack";
 import { Socials } from "@/components/shared/Socials";
 import { ProjectComp } from "@/components/shared/ProjectComp";
 import ExperienceComp from "@/components/shared/ExperienceComp";
+import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 export default function HomePage() {
   return (
@@ -58,6 +60,15 @@ export default function HomePage() {
         <ProjectComp />
       </div>
 
+      <div className="border-x border-t baseBorder">
+        <h1 className="max-w-3xl mx-auto border-x baseBorder text-xl py-1 px-5">
+          <Link href={"/projects"} className="flex items-center justify-center gap-1 hover:opacity-90">
+            See all Projects
+            <ArrowRight className="size-5"/>
+          </Link>
+        </h1>
+      </div>
+
       <div className="lineDiv" />
 
       <div className="border-x border-b baseBorder">
@@ -71,8 +82,7 @@ export default function HomePage() {
       </div>
 
       <div className="border-t baseBorder">
-        <div className="max-w-3xl mx-auto border-x baseBorder h-10">
-        </div>
+        <div className="max-w-3xl mx-auto border-x baseBorder h-10"></div>
       </div>
     </div>
   );

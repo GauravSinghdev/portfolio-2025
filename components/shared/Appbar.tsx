@@ -60,11 +60,11 @@ export default function Appbar() {
         </div>
       </div>
       {isMenuOpen && (
-        <div className="sm:hidden bg-white dark:bg-gray-800 border-t border-gray-200">
-          <div className="flex flex-col items-start gap-4 p-4 text-gray-700 dark:text-gray-200 bg-transparent">
+        <div className="sm:hidden bg-white dark:bg-black/80 border-t baseBorder">
+          <div className="flex flex-col items-start text-center text-gray-700 dark:text-gray-200 bg-transparent divide-y divide-gray-300 dark:divide-gray-500">
             {/* <Link
               className=" w-full p-1"
-              href={"/#projects"}
+              href={"/projects"}
               onClick={toggleMenu}
             >
               Projects
@@ -72,13 +72,13 @@ export default function Appbar() {
             <Link
               href={"https://bytelog.codewithkara.com/blogs"}
               target="_blank"
-              className="w-full p-1"
+              className="w-full p-2"
               onClick={toggleMenu}
             >
               Blogs
             </Link>
             <Link
-              className=" w-full p-1"
+              className="w-full p-2"
               href={"/reviews"}
               onClick={toggleMenu}
             >
