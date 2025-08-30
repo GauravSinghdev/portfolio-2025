@@ -7,6 +7,11 @@ import karazon from "@/public/karazon.jpg";
 import justLinks from "@/public/justlinks.jpg";
 import chitchat from "@/public/chitchat.jpg";
 import bytelog from "@/public/bytelog.jpg";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Projects",
+  };
 
 const projArr = [
   {
