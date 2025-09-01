@@ -7,6 +7,7 @@ import karazon from "@/public/karazon.jpg";
 import justLinks from "@/public/justlinks.jpg";
 import chitchat from "@/public/chitchat.jpg";
 import bytelog from "@/public/bytelog.jpg";
+import hanami from "@/public/hanami.jpg";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -50,6 +51,12 @@ const projArr = [
     pic: chitchat,
     link: "https://chitchat.supxdevs.com",
   },
+  {
+    name: "Hanami",
+    description: "Your fav intro app to japanese and the culture.",
+    pic: hanami,
+    link: "https://hanami.supxdevs.com",
+  }
 ];
 
 export default function ProjectPage() {
@@ -69,8 +76,8 @@ export default function ProjectPage() {
               className="border baseBorder space-y-2 p-1 group"
             >
               <Image
-                height={200}
-                width={200}
+                height={500}
+                width={500}
                 src={proj.pic}
                 alt={proj.name}
                 className="object-cover h-48 w-full"
