@@ -30,7 +30,7 @@ export default function Appbar() {
             >
               Blogs
             </Link>
-            <Link href={"/reviews"}>Reviews</Link>
+            {/* <Link href={"/reviews"}>Reviews</Link> */}
           </div>
 
           <div className="flex gap-2 items-center">
