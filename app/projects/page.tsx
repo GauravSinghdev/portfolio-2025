@@ -8,6 +8,7 @@
   import chitchat from "@/public/chitchat.jpg";
   import bytelog from "@/public/bytelog.jpg";
   import hanami from "@/public/hanami.jpg";
+  import karavaan from "@/public/karavaan.jpg"
   import { Metadata } from "next";
 
   export const metadata: Metadata = {
@@ -56,6 +57,12 @@
       description: "Your fav intro app to japanese and the culture.",
       pic: hanami,
       link: "https://hanami.supxdevs.com",
+    },
+    {
+      name: "KARAvaan",
+      description: "Personal travel journals.",
+      pic: karavaan,
+      link: "https://karavaan.codewithkara.com"
     }
   ];
 

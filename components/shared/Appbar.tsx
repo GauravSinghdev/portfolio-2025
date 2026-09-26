@@ -31,7 +31,7 @@ export default function Appbar() {
               Blogs
             </Link>
             <Link href={"https://karavaan.codewithkara.com/"} target="_blank">
-              Travel Journals
+              Journals
             </Link>
             {/* <Link href={"/reviews"}>Reviews</Link> */}
           </div>

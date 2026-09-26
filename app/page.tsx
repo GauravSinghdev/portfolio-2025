@@ -6,20 +6,30 @@ import { ProjectComp } from "@/components/shared/ProjectComp";
 import ExperienceComp from "@/components/shared/ExperienceComp";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
+import lBan from "@/public/gs_light_banner.png";
+import dBan from "@/public/gs_dark_banner.png";
+import Image from "next/image";
 
 export default function HomePage() {
   return (
     <div className="min-h-screen flex flex-col">
       <div className="mt-13 max-w-3xl mx-auto border-x baseBorder w-full">
-        <div className="hidden sm:h-[200px] bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] dark:bg-[radial-gradient(#2a2a2a_1px,transparent_1px)] bg-[size:25px_25px] sm:flex items-center justify-center">
-          <div className="flex items-center space-x-4 cursor-default">
-            <span className="text-6xl font-extrabold text-black dark:text-white drop-shadow-[0_0_8px_rgba(0,0,0,0.5)] dark:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] transition-all duration-300 hover:drop-shadow-[0_0_12px_rgba(0,0,0,0.7)] dark:hover:drop-shadow-[0_0_12px_rgba(255,255,255,1)] hover:scale-110">
-              G
-            </span>
-            <span className="text-6xl font-extrabold text-black dark:text-white drop-shadow-[0_0_8px_rgba(0,0,0,0.5)] dark:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] transition-all duration-300 hover:drop-shadow-[0_0_12px_rgba(0,0,0,0.7)] dark:hover:drop-shadow-[0_0_12px_rgba(255,255,255,1)] hover:scale-110">
-              S
-            </span>
-          </div>
+        <div className="w-full">
+          {/* Visible only in light mode */}
+          <Image
+            src={lBan}
+            alt="Light banner"
+            className="block w-full h-auto dark:hidden"
+            priority
+          />
+
+          {/* Visible only in dark mode */}
+          <Image
+            src={dBan}
+            alt="Dark banner"
+            className="hidden w-full h-auto dark:block"
+            priority
+          />
         </div>
         <ProfileComp />
       </div>
@@ -62,9 +72,12 @@ export default function HomePage() {
 
       <div className="border-x border-t baseBorder">
         <h1 className="max-w-3xl mx-auto border-x baseBorder text-xl py-1 px-5">
-          <Link href={"/projects"} className="flex items-center justify-center gap-1 hover:opacity-90">
+          <Link
+            href={"/projects"}
+            className="flex items-center justify-center gap-1 hover:opacity-90"
+          >
             See all Projects
-            <ArrowRight className="size-5"/>
+            <ArrowRight className="size-5" />
           </Link>
         </h1>
       </div>
