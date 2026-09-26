@@ -19,7 +19,7 @@ export default function HomePage() {
           <Image
             src={lBan}
             alt="Light banner"
-            className="block w-full h-auto dark:hidden"
+            className="block w-full h-40 dark:hidden"
             priority
           />
 
@@ -27,7 +27,7 @@ export default function HomePage() {
           <Image
             src={dBan}
             alt="Dark banner"
-            className="hidden w-full h-auto dark:block"
+            className="hidden w-full h-40 dark:block"
             priority
           />
         </div>
