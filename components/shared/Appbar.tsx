@@ -30,6 +30,9 @@ export default function Appbar() {
             >
               Blogs
             </Link>
+            <Link href={"https://karavaan.codewithkara.com/"} target="_blank">
+              Travel Journals
+            </Link>
             {/* <Link href={"/reviews"}>Reviews</Link> */}
           </div>
 
@@ -77,11 +80,7 @@ export default function Appbar() {
             >
               Blogs
             </Link>
-            <Link
-              className="w-full p-2"
-              href={"/reviews"}
-              onClick={toggleMenu}
-            >
+            <Link className="w-full p-2" href={"/reviews"} onClick={toggleMenu}>
               Reviews
             </Link>
           </div>
